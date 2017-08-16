@@ -58,8 +58,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01614CBE1F4431E900E98D56 /* Mapper_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mapper_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		01614CD41F44329D00E98D56 /* Mapper_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mapper_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01614CBE1F4431E900E98D56 /* Mapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01614CD41F44329D00E98D56 /* Mapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20174831BD5509D00E4FE18 /* Mapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Mapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C201748D1BD5509D00E4FE18 /* MapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C20586EB1CDEAD9900658A67 /* DefaultConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultConvertible.swift; sourceTree = "<group>"; };
@@ -128,8 +128,8 @@
 			children = (
 				C20174831BD5509D00E4FE18 /* Mapper.framework */,
 				C201748D1BD5509D00E4FE18 /* MapperTests.xctest */,
-				01614CBE1F4431E900E98D56 /* Mapper_iOS.framework */,
-				01614CD41F44329D00E98D56 /* Mapper_tvOS.framework */,
+				01614CBE1F4431E900E98D56 /* Mapper.framework */,
+				01614CD41F44329D00E98D56 /* Mapper.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -229,7 +229,7 @@
 			);
 			name = "Mapper-iOS";
 			productName = "Mapper-iOS";
-			productReference = 01614CBE1F4431E900E98D56 /* Mapper_iOS.framework */;
+			productReference = 01614CBE1F4431E900E98D56 /* Mapper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		01614CD31F44329D00E98D56 /* Mapper-tvOS */ = {
@@ -247,7 +247,7 @@
 			);
 			name = "Mapper-tvOS";
 			productName = "Mapper-tvOS";
-			productReference = 01614CD41F44329D00E98D56 /* Mapper_tvOS.framework */;
+			productReference = 01614CD41F44329D00E98D56 /* Mapper.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		C20174821BD5509D00E4FE18 /* Mapper */ = {
@@ -477,7 +477,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lyft.Mapper;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Mapper;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -535,7 +535,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lyft.Mapper;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Mapper;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -598,7 +598,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lyft.Mapper;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Mapper;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -656,7 +656,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Lyft.Mapper;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = Mapper;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
